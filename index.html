@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Penguin Fashion</title>
+    <!-- Fontawesome Icon -->
+    <script src="https://kit.fontawesome.com/709e4a06c8.js" crossorigin="anonymous"></script>
+    <!-- Tailwind CSS -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+        tailwind.config = {
+          theme: {
+            extend: {
+              colors: {
+                clifford: '#da373d',
+                background: '#FFFBF0',
+                headerprimary: '#FABE4C',
+                headersecondary: '#363958',
+                headerparagraph: '#3E3E3E',
+                btn: '#A4BC46',
+              }
+            }
+          }
+        }
+    </script>
+</head>
+<body>
+    <header class="bg-background pb-32 pt-4">
+        <!-- Banner Start -->
+        <section class="container mx-auto sm:flex items-center justify-around">
+            <div class="space-y-4">
+                <h1 class="uppercase font-bold text-2xl sm:text-5xl">
+                  <span class="text-headerprimary">Be the Penguins </span>
+                  <hr class="border-none">
+                  <span class="text-headersecondary">of Winter</span></h1>
+                <p class="text-headerparagraph">Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+                <button class="uppercase bg-btn p-5 rounded-xl text-white font-semibold"><i class="fa-solid fa-cart-shopping"></i>Buy Now</button>
+            </div>
+            <div class="pt-8 sm:pt-0">
+                <img class="w-1/2 sm:w-full" src="images/model.png" alt="">
+            </div>
+        </section>
+        <!-- Banner End -->
+    </header>
+</body>
+</html>
